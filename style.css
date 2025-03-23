@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+}
+.gridItems{
+    /* background-color: #ffffff; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+.gridItems img{
+    filter: invert();
+    width: 112px;
+    position: relative;
+    bottom: 52px;
+    right: 35px;
+}

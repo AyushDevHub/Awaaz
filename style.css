@@ -50,3 +50,9 @@ body{
     position: relative;
     right: 40px;
 }
+.home{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 35px;
+}
